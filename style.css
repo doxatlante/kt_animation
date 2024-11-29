@@ -76,6 +76,9 @@
     0%{
         transform: translateY(-1px);
     }
+    0%{
+        right: 0px; top: 0px; transform: rotateX(150deg);
+    }
 }
 
 .wheel{
@@ -104,5 +107,8 @@
 @keyframes wheel{
     100%{
         transform: rotate(360deg);
+    }
+    50%{
+        right: 0px; top: 0px; transform: rotateX(300deg);
     }
 }
